@@ -7,5 +7,10 @@ angular.module('egoGraphApp')
         url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
-      });
+      })
+      .state('visual', {
+        url:'/getVisual',
+        templateUrl: 'app/visual/visual.html',
+        controller: 'VisualCtrl'
+      })
   });

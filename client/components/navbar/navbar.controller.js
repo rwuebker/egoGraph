@@ -5,6 +5,10 @@ angular.module('egoGraphApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    },
+    {
+      'title': 'Get Visual',
+      'link':'/getVisual'
     }];
 
     $scope.isCollapsed = true;
